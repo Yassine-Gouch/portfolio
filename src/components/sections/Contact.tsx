@@ -3,6 +3,7 @@ import { Reveal, SectionHeading } from '@/components/Reveal';
 import { personal } from '@/data/portfolio';
 import { Mail, MapPin, Phone, Github, Linkedin, Send, CheckCircle2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import emailjs from '@emailjs/browser';
 
 export function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
@@ -19,17 +20,38 @@ export function Contact() {
     return Object.keys(e).length === 0;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!validate()) return;
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
 
-    const subject = encodeURIComponent(`Portfolio Contact from ${form.name}`);
-    const body = encodeURIComponent(`${form.message}\n\n— ${form.name} (${form.email})`);
-    window.location.href = `mailto:${personal.email}?subject=${subject}&body=${body}`;
+  if (!validate()) return;
+
+  try {
+    await emailjs.send(
+      'service_667fptt',
+      'template_9f7wz0x',
+      {
+        from_name: form.name,
+        from_email: form.email,
+        message: form.message,
+      },
+      'r4IvD16YvhSp06PRx'
+    );
+
     setSent(true);
-    setForm({ name: '', email: '', message: '' });
+
+    setForm({
+      name: '',
+      email: '',
+      message: '',
+    });
+
     setTimeout(() => setSent(false), 4000);
-  };
+
+  } catch (error) {
+    console.error('EmailJS Error:', error);
+    alert('Failed to send message. Please try again.');
+  }
+};
 
   const contactCards = [
     { icon: Mail, label: 'Email', value: personal.email, href: `mailto:${personal.email}` },

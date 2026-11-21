@@ -12,9 +12,7 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-3">
-              <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center font-bold text-white text-sm">
-                CB
-              </div>
+              
               <span className="font-semibold text-text">Yassine Gouch</span>
             </div>
             <p className="text-sm text-muted leading-relaxed max-w-xs">
@@ -58,9 +56,7 @@ export function Footer() {
           <p className="text-sm text-muted">
             © {new Date().getFullYear()} Yassine Gouch. All rights reserved.
           </p>
-          <p className="text-sm text-muted flex items-center gap-1.5">
-            Built with <Heart className="w-3.5 h-3.5 text-secondary fill-secondary" /> using React & Tailwind
-          </p>
+          
         </div>
       </div>
     </footer>

@@ -33,11 +33,12 @@ export function Navbar() {
             onClick={() => scrollTo('#home')}
             className="flex items-center gap-2 cursor-hover group"
           >
-            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center font-bold text-white text-sm group-hover:scale-110 transition-transform">
-              CB
-            </div>
+            <div className="w-10 h-10 rounded-xl overflow-hidden border border-white/10">
+
+</div>
+
             <span className="font-semibold text-text hidden sm:block">
-              Yassine<span className="text-secondary">.dev</span>
+              G.<span className="text-secondary">Yassine</span>
             </span>
           </button>
 

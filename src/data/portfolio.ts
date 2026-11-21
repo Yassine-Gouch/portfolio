@@ -232,7 +232,7 @@ export const certifications = [
     logo: 'nvidia',
     date: 'October 2026',
     description: 'Specialized training in Retrieval-Augmented Generation (RAG), vector databases, and LLMOps.',
-    credentialUrl: 'https://learn.nvidia.com/certificates/YOUR_LINK',
+    credentialUrl: 'https://learn.nvidia.com/certificates?id=PZTt0rLZR0yq7LrYR3676g#',
   },
 
   {
@@ -241,7 +241,7 @@ export const certifications = [
     logo: 'mongodb',
     date: 'October 2026',
     description: 'Learned to build Retrieval-Augmented Generation applications using MongoDB and vector search.',
-    credentialUrl: 'https://learn.mongodb.com/YOUR_LINK',
+    credentialUrl: 'https://www.credly.com/badges/ded1dfff-8032-49cc-bdb5-ab960ac86023',
   },
 
   {
@@ -250,7 +250,7 @@ export const certifications = [
     logo: 'ibm',
     date: 'November 2026',
     description: 'Foundational training in data analysis, visualization, management, and data science concepts.',
-    credentialUrl: 'https://www.credly.com/badges/YOUR_LINK',
+    credentialUrl: 'https://www.credly.com/badges/29d3ecc5-b044-47eb-9040-d5697d7c7149',
   },
 
   {
@@ -259,7 +259,7 @@ export const certifications = [
     logo: 'kaggle',
     date: 'November 2026',
     description: 'Advanced SQL techniques including JOINs, CTEs, Window Functions, and Query Optimization.',
-    credentialUrl: 'https://www.kaggle.com',
+    credentialUrl: 'https://www.kaggle.com/learn/certification/yassinegouchk/advanced-sql',
   },
 
   {
@@ -268,7 +268,7 @@ export const certifications = [
     logo: 'kaggle',
     date: 'November 2026',
     description: 'Introduction to machine learning, feature engineering, model training, and evaluation.',
-    credentialUrl: 'https://www.kaggle.com',
+    credentialUrl: 'https://www.kaggle.com/learn/certification/yassinegouchk/intro-to-machine-learning',
   },
 
   {
@@ -277,7 +277,7 @@ export const certifications = [
     logo: 'nvidia',
     date: 'October 2026',
     description: 'Building AI applications rapidly using Large Language Models and Generative AI techniques.',
-    credentialUrl: 'https://learn.nvidia.com/certificates',
+    credentialUrl: 'https://learn.nvidia.com/certificates?id=_GmlbFISRam0Be4Q9op6dw#',
   },
 ];
 
