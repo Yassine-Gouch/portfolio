@@ -155,10 +155,11 @@ export const projects = [
     description:
       'Analyzed 7 million+ road accidents to identify key risk factors including weather, traffic, and environmental conditions. Developed predictive models to estimate accident severity and improve decision-making.',
     tech: ['Python', 'Pandas', 'Scikit-Learn', 'SQL', 'Seaborn'],
-    github: 'https://github.com/chakir-bahmed',
-    demo: 'https://github.com/chakir-bahmed',
+    github: 'https://github.com/Yassine-Gouch/accofusa',
+    demo: 'https://accedent.streamlit.app/',
     gradient: 'from-amber-600 to-rose-500',
     icon: 'MapPin',
+    video: '/demo/demo_acc_usa.mp4',
   },
   {
     title: 'AI Chatbot Assistant (RAG + LLMs)',
