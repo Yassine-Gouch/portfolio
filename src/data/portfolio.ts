@@ -193,7 +193,7 @@ export const projects = [
       'A full-scale analytics platform processing 500,000+ chess games and 670,000+ players. Built a data pipeline generating 20+ key performance indicators and machine learning models for match outcome prediction, exposed through REST APIs.',
     tech: ['Python', 'Pandas', 'DuckDB', 'SQL', 'FastAPI', 'XGBoost'],
     github: 'https://github.com/Yassine-Gouch/ChessStats',
-    demo: 'https://github.com/Yassine-Gouch/ChessStats',
+    demo: 'https://chess-stats-liard.vercel.app/',
     gradient: 'from-blue-600 to-cyan-500',
     icon: 'Cpu',
         video: '/demo/ChessStatsDemo.mp4',
